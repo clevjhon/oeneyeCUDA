@@ -1,0 +1,8 @@
+name: abuze-charm
+description: "Charm the abuze application stack based on SBOM specification."
+summary: "Abuze operator charm"
+assumes:
+  - juju >= 3.0
+provides:
+  abuze:
+    interface: abuze
